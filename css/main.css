@@ -358,7 +358,7 @@
 
 
 footer {
-    background-color: royalblue;
+    background-color: cornflowerblue;
     color: #eee;
     padding: 40px 120px;
 }
@@ -390,7 +390,7 @@ footer .center a {
     width: 100px;
     height: 40px;
     background-color: #fff;
-    color: royalblue;
+    color: cornflowerblue;
     font-weight: bold;
     border-radius: 50px;
     position: relative;
@@ -406,7 +406,7 @@ footer .center a::after {
     content: '';
     width: 0;
     height: 110%;
-    background-color: royalblue;
+    background-color: cornflowerblue;
     position: absolute;
     top: 0;
     left: 0;
@@ -546,8 +546,6 @@ footer .center a span {
     }
 
     footer {
-        background-color: royalblue;
-        color: #eee;
         padding: 40px 90px;
     }
 }
