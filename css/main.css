@@ -263,7 +263,7 @@
 .graphic {
     width: 100%;
     background-color: aliceblue;
-    padding: 100px 0 100px;
+    padding: 100px 0;
 }
 .graphic.on {
     background-color: #333;
@@ -535,6 +535,12 @@ footer .center a span {
         font-size: 14px;
     }
 
+    .graphic {
+        padding: 100px 0 50px;
+    }
+    .graphic h2 {
+        margin-bottom: 100px;
+    }
     .graphic .list .item {
         width: calc(100% - 80px);
     }
