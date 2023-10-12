@@ -604,6 +604,10 @@ button.top.on:hover {
     .resume .inner .top figure {
         margin-right: 0;
         margin-bottom: 40px;
+        transform: rotate(0);
+    }
+    .resume .inner .top figure::after {
+        transform: rotate(4deg);
     }
     .resume .inner .top .text .name h3 {
         font-size: 20px;

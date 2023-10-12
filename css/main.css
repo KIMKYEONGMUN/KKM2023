@@ -549,6 +549,9 @@ footer .center a span {
     footer {
         padding: 40px 90px;
     }
+    footer .center p {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 354px) {
