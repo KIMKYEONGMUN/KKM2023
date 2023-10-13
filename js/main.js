@@ -18,23 +18,29 @@ $(function(){
         $('.web .list .item').eq($(this).index()).addClass('on');
     });
 
-    $('.graphic .item').click(function(){
+    $('.resume .attendance').click(function(){
         $('#wrap').addClass('on');
-        $(this).addClass('on');
-        $('.graphic .pop').addClass('on');
-        $('.graphic .pop').attr('src', $(this).find('img').attr('src'));
-        $('.graphic .pop').attr('alt', $(this).find('img').attr('alt'));
+        $('.pop').addClass('on');
+        $('.pop').attr('src', 'img/출결_231012.jpg');
+        $('.pop').attr('alt', '출결');
     });
 
-    $('.graphic .pop').click(function(){
+    $('.graphic .item').click(function(){
+        $('#wrap').addClass('on');
+        $('.pop').addClass('on');
+        $('.pop').attr('src', $(this).find('img').attr('src'));
+        $('.pop').attr('alt', $(this).find('img').attr('alt'));
+    });
+
+    $('.pop').click(function(){
         $('#wrap').removeClass('on');
         $(this).removeClass('on');
     });
 
     $(document).mouseup(function (e) {
-        if ($('.graphic .pop').has(e.target).length === 0) {
+        if ($('.pop').has(e.target).length === 0) {
           $('#wrap').removeClass('on');
-          $('.graphic .pop').removeClass('on');
+          $('.pop').removeClass('on');
         };
       });
 
