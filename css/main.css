@@ -338,7 +338,7 @@
     border: 1px solid #eee;
 }
 
-.graphic .pop {
+.pop {
     height: 90vh;
     object-fit: cover;
     position: fixed;
@@ -350,7 +350,7 @@
     z-index: 3;
     display: none;
 }
-.graphic .pop.on {
+.pop.on {
     display: block;
 }
 

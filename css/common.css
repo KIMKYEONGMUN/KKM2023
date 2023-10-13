@@ -588,6 +588,20 @@ button.top.on:hover {
 .resume .inner .bottom .inner_bottom .education dl dt {
     margin-right: 16px;
 }
+.resume .inner .bottom .inner_bottom .education dl dd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.resume .inner .bottom .inner_bottom .education dl dd p {
+    margin-right: 16px;
+}
+.resume .inner .bottom .inner_bottom .education dl dd span.attendance {
+    display: block;
+    color: cornflowerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .resume .inner .bottom .inner_bottom ul li {
     margin-bottom: 10px;
 }
