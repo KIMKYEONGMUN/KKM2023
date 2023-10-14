@@ -100,7 +100,7 @@ h1 strong {
 .mode figure img {
     width: 100%;
     height: 100%;
-    object-fit: 100%;
+    object-fit: cover;
 }
 .mode figure.dark {
     display: block;
@@ -122,7 +122,7 @@ h1 strong {
 button.top {
     width: 50px;
     height: 50px;
-    line-height: 50px;
+    align-items: center;
     text-align: center;
     border-radius: 50%;
     position: fixed;
@@ -143,7 +143,9 @@ button.top:hover {
 }
 button.top.on:hover {
     background-color: lightgoldenrodyellow;
-    color: #777;
+}
+button.top.on:hover svg path {
+    fill: #777;
 }
 
 
@@ -567,6 +569,34 @@ button.top.on:hover {
 .resume.on .inner .top .text div svg path {
     fill: #fff;
 }
+.resume .inner .top .text .site {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.resume .inner .top .text .site a {
+    display: block;
+    background-color: #fff;
+    color: royalblue;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-right: 16px;
+    margin-top: 30px;
+}
+.resume .inner .top .text .site a:hover {
+    background-color: royalblue;
+    color: #fff;
+}
+.resume.on .inner .top .text .site a {
+    background-color: #000;
+    color: lightgoldenrodyellow;
+}
+.resume.on .inner .top .text .site a:hover {
+    background-color: lightgoldenrodyellow;
+    color: #555;
+}
 .resume .inner .bottom {
     font-size: 20px;
     display: flex;
@@ -594,10 +624,9 @@ button.top.on:hover {
     align-items: center;
 }
 .resume .inner .bottom .inner_bottom .education dl dd p {
-    margin-right: 16px;
+    margin-right: 8px;
 }
 .resume .inner .bottom .inner_bottom .education dl dd span.attendance {
-    display: block;
     color: cornflowerblue;
     text-decoration: underline;
     cursor: pointer;
@@ -656,6 +685,13 @@ button.top.on:hover {
 
     .resume {
         padding: 100px 0;
+    }
+    .resume .inner .top .text div.phone a {
+        color: cornflowerblue;
+        text-decoration: underline;
+    }
+    .resume .inner .top .text .site {
+        font-size: 16px;
     }
 }
 
