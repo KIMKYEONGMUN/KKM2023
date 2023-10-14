@@ -87,7 +87,7 @@ h1 strong {
     background-color: #333;
 }
 .mode.on:hover {
-    background-color: #eee;
+    background-color: #fff;
 }
 .mode figure {
     width: 30px;
