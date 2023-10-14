@@ -294,13 +294,13 @@
     content: '';
     width: 60%;
     height: 40%;
-    background: url('../img/triangle.png') center center / cover no-repeat;
+    background: url('../img/triangle.png') left top / cover no-repeat;
     position: absolute;
     left: -4px;
     bottom: -4px;
 }
 .graphic.on .list .item::after {
-    background: url('../img/triangle_on.png') center center / cover no-repeat;
+    background: url('../img/triangle_on.png') left top / cover no-repeat;
 }
 .graphic .list .item figure {
     width: 100%;
