@@ -224,6 +224,9 @@
 .web.on .inner .list .item .list_item .text dl dt {
     color: lightgoldenrodyellow;
 }
+.web .inner .list .item .list_item .text ul {
+    padding-top: 10px;
+}
 .web .inner .list .item .list_item .text ul li {
     display: inline-block;
     color: royalblue;
