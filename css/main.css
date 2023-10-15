@@ -395,24 +395,24 @@ footer .center p {
     margin-right: 16px;
     margin-bottom: 6px;
 }
-footer .center a {
-    display: block;
+footer .center p.contact {
     width: 100px;
     height: 40px;
     background-color: #fff;
     color: cornflowerblue;
     font-weight: bold;
     border-radius: 50px;
+    cursor: pointer;
     position: relative;
     transition: 0.4s;
 }
-footer.on .center a {
+footer.on .center p.contact {
     color: darkslategray;
 }
-footer .center a:hover {
+footer .center p.contact:hover {
     color: #fff;
 }
-footer .center a::after {
+footer .center p.contact::after {
     content: '';
     width: 0;
     height: 110%;
@@ -422,13 +422,13 @@ footer .center a::after {
     left: 0;
     transition: 0.4s;
 }
-footer.on .center a::after {
+footer.on .center p.contact::after {
     background-color: darkslategray;
 }
-footer .center a:hover::after {
+footer .center p.contact:hover::after {
     width: 110%;
 }
-footer .center a span {
+footer .center p.contact span {
     position: absolute;
     top: 50%;
     left: 50%;
