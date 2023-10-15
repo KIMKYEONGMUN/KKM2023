@@ -574,6 +574,7 @@ button.top.on:hover svg path {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 .resume .inner .top .text .site a {
     display: block;
@@ -653,7 +654,10 @@ button.top.on:hover svg path {
         transform: rotate(4deg);
     }
     .resume .inner .top .text .name h3 {
-        font-size: 20px;
+        font-size: 24px;
+    }
+    .resume .inner .top .text > span {
+        text-align: center;
     }
     .resume .inner .bottom {
         font-size: 18px;
