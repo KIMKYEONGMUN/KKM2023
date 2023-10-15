@@ -43,5 +43,11 @@ $(function(){
           $('.pop').removeClass('on');
         };
       });
+    
+    $('footer p.contact').click(function(){
+        $('html, body').animate({
+            scrollTop: $('.resume').offset().top
+        }, 400);
+    });
 
 });// jquery end
